@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Google Drive Uploader</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+
+    <style>
+        .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        border: 3px solid rgb(58, 128, 0); 
+        }
+        
+        h1 {text-align: center;}
+
+        .button {
+          background-color: #63af4c;
+          border: none;
+          color: white;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Send files to Google Drive using OAuth 2.0.</h1>
+
+   <div class="center">
+       <button class="button" id="login">
+           Upload
+       </button>
+   </div> 
+</body>
+</html>
